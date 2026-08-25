@@ -11,8 +11,12 @@ Welcome to my personal analytics tracking workspace. I built this dashboard to a
 data-dashboard/
 ├── README.md
 ├── assets/
-│   ├── assests.txt
-└── source-code/
-    ├── index.html
-    ├── parser.js
-    └── config.json
+│   ├── assets.txt
+├── source-code/
+│   ├── index.html
+│   ├── parser.js
+│   └── config.json
+└── legal-stuff/
+    ├── terms_of_service_v1.4.txt
+    ├── compliance_audit_report.txt
+    └── privacy_policy_draft.txt
