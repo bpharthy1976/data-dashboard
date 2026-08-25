@@ -1,0 +1,30 @@
+================================================================================
+TELEMETRYCORE ANALYTICS PLATFORM - TERMS OF SERVICE (DRAFT v1.4)
+================================================================================
+Last Updated: January 2026
+Jurisdiction: State of Tennessee / Federal Communications Guidelines
+
+1. ACCEPTANCE OF TERMS
+By accessing, browsing, or utilizing the TelemetryCore analytics dashboard 
+interface, localized data streaming modules, or associated source-code repositories 
+provided by Bramley (hereafter "Maintainer"), you agree to be bound by these 
+terms of service. If you do not agree to all terms, discontinue use immediately.
+
+2. PERMITTED USAGE AND DATA SCOPE
+Users are granted a limited, non-exclusive, non-transferable license to view, 
+audit, and analyze the source code for debugging and educational purposes only. 
+Unauthorized extraction of live telemetry nodes, bypassing of ingress rate limits, 
+or aggressive fuzzing of downstream endpoints is strictly prohibited.
+
+3. LIMITATION OF LIABILITY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS 
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE MAINTAINER 
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+4. MODIFICATIONS TO TERMS
+The Maintainer reserves the right to modify these terms at any time without prior 
+notice. Continued use of the repository constitutes acceptance of updated terms.
+================================================================================
