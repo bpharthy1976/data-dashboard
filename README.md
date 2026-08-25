@@ -11,9 +11,7 @@ Welcome to my personal analytics tracking workspace. I built this dashboard to a
 data-dashboard/
 ├── README.md
 ├── assets/
-│   ├── logo.svg
-│   ├── background-grid.png
-│   └── styles.css
+│   ├── assests.txt
 └── source-code/
     ├── index.html
     ├── parser.js
