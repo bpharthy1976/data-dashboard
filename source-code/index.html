@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bramley's Analytics & Data Stream - Dashboard v2.4.1</title>
+    <!-- TTU{w3B_Re3oN_1S_LIT} -->
+    <style>
+        :root { --bg-primary: #0f172a; --bg-secondary: #1e293b; --accent: #3b82f6; --text-main: #f8fafc; --text-muted: #94a3b8; }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+        body { background-color: var(--bg-primary); color: var(--text-main); display: flex; height: 100vh; overflow: hidden; }
+        aside { width: 280px; background-color: var(--bg-secondary); border-right: 1px solid #334155; display: flex; flex-direction: column; }
+        .sidebar-brand { padding: 1.5rem; font-size: 1.25rem; font-weight: bold; color: var(--accent); border-bottom: 1px solid #334155; }
+        .sidebar-nav { list-style: none; padding: 1rem; }
+        .sidebar-nav li { padding: 0.75rem 1rem; border-radius: 0.375rem; cursor: pointer; color: var(--text-muted); transition: all 0.2s; }
+        .sidebar-nav li:hover, .sidebar-nav li.active { background-color: rgba(59, 130, 246, 0.1); color: var(--accent); }
+        main { flex: 1; display: flex; flex-direction: column; overflow-y: auto; }
+        header { height: 70px; border-bottom: 1px solid #334155; display: flex; align-items: center; justify-content: space-between; padding: 0 2rem; background-color: var(--bg-secondary); }
+        .dashboard-content { padding: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        .card { background-color: var(--bg-secondary); border: 1px solid #334155; border-radius: 0.5rem; padding: 1.5rem; }
+        .card h3 { font-size: 1rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+        .card .metric { font-size: 2rem; font-weight: bold; }
+        .terminal-box { grid-column: span 2; background-color: #020617; border: 1px solid #1e293b; border-radius: 0.5rem; padding: 1rem; font-family: monospace; color: #38bdf8; height: 200px; overflow-y: scroll; }
+    </style>
+</head>
+<body>
+
+    <aside>
+        <div class="sidebar-brand">TelemetryCore // v2.4</div>
+        <ul class="sidebar-nav">
+            <li class="active">Overview Dashboard</li>
+            <li>Node Diagnostics</li>
+            <li>Packet Stream Analysis</li>
+            <li>Source Code Repos</li>
+            <li>System Logs</li>
+        </ul>
+    </aside>
+
+    <main>
+        <header>
+            <h2>Environment: Production-Staging</h2>
+            <div style="font-size: 0.875rem; color: #10b981;">● Status: Syncing</div>
+        </header>
+
+        <div class="dashboard-content">
+            <div class="card">
+                <h3>Active Data Pipelines</h3>
+                <div class="metric">1,042/s</div>
+            </div>
+            <div class="card">
+                <h3>Buffer Overflow Risk</h3>
+                <div class="metric" style="color: #f59e0b;">Nominal</div>
+            </div>
+            <div class="card">
+                <h3>Latency Variance</h3>
+                <div class="metric">14.2ms</div>
+            </div>
+
+            <div class="terminal-box">
+                [SYSTEM INITIALIZED]<br>
+                > Loading modules from /source-code/core/...<br>
+                > Parsing telemetry endpoints...<br>
+                > Warning: Legacy stream handlers detected in environment.<br>
+                > Executing background data loops... OK.
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Background loop runner for UI simulation
+        console.log("Telemetry daemon active. Check source-code folder for config overrides.");
+    </script>
+</body>
+</html>
